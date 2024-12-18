@@ -6,6 +6,10 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">	
 		<title>JSP 예제 - include.jsp</title>
+		<style>
+			#header{color:orange;}
+			#copyright{color:blue;}
+		</style>
 	</head>
 	<body>
 		<%@ include file="header.jsp" %>
