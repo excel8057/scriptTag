@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>학점 계산기</title>
+</head>
+<body>
+    <h1>학점 계산기</h1>
+    <form id="scoreForm" method="post" action="/scriptTag/score">
+        <label for="score">점수:</label>
+        <input type="text" id="score" name="score" required><br>
+        <button type="button" onclick="submitForm()">학점 구하기</button>
+    </form>
+    <script src="/scriptTag/js/jquery-3.7.1.min.js"></script>
+    <script src="/scriptTag/js/score.js"></script>
+</body>
+</html>
